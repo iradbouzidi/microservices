@@ -1,0 +1,55 @@
+http://localhost:8080/futuro/users
+user:
+{
+    "id": 1,
+    "firstName": "name",
+    "lastName": "surname",
+    "email": "email@gmail.com",
+    "password": "pass",
+    "profile": {
+        "id": 1,
+        "phoneNumber": "123456789",
+        "gender": null,
+        "dateOfBirth": null,
+        "address1": null,
+        "address2": null,
+        "street": null,
+        "city": null,
+        "state": null,
+        "country": null,
+        "zipCode": null
+    }
+}
+
+http://localhost:8080/futuro/profiles
+profile:
+{
+    "id": 1,
+    "phoneNumber": "123456789",
+    "gender": null,
+    "dateOfBirth": null,
+    "address1": null,
+    "address2": null,
+    "street": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "zipCode": null
+}
+
+Posts:
+{
+    "title": "Posts ",
+    "description": "post 1 description",
+    "content": "post 1 content"
+}
+
+Get: http://localhost:8080/futuro/posts?page=0&size=2&sort=createdAt,desc
+
+Comment
+http://localhost:8080/futuro/posts/1/comments
+{
+    "text": "great post"
+}
+
+GET /posts/1/comments?page=0&size=3&sort=createdAt,desc
