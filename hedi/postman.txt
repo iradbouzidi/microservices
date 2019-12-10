@@ -1,0 +1,23 @@
+http://localhost:8080/futuro/addAgence
+	agence:
+{
+    "pays": "tunis",
+    "region": "sfax",
+    "adresse": "sfax",
+    "nb_voitures": 40,
+    "email": "moto123@test.com",
+    "id": 3,
+    "type": "location moto",
+    "description": "c'est une agence de moto",
+    "nom": "rentMoto123",
+    "tel": 123456
+}
+
+http://localhost:8080/futuro/addCommande
+	commande
+	  {
+        "type_service": "vols",
+        "nbr_personne": 2,
+        "prix_personne": 50.0,
+        "totale": 100.0
+    }
