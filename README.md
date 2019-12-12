@@ -47,3 +47,7 @@ Run Zuul project
 
 # Deleting Service
 ![GitHub Logo](img/Screenshot_5.png)
+
+## Reading Information:
+# Deleting Service
+![GitHub Logo](img/ok.png)
